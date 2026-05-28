@@ -1,5 +1,8 @@
-profiles:
-    active: prod
+# profiles:
+#     active: dev
+spring:
+    application:
+        name: SANKET
 eureka:
     instance:
       prefer-ip-address: true
